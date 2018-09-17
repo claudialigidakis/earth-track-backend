@@ -52,7 +52,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 ## Install
 
-    $ git clone https://github.com/earth-track-backend
+    $ git clone https://github.com/earth-track-backend.git
     $ cd earth-track-backend
     $ npm install
     
