@@ -6,7 +6,6 @@ function create(req, res, next) {
   }
   model.create(req.body.latitude, req.body.longitude)
   .then(data => {
-    console.log(data)
     res.status(200).send(data)
   })
   .catch(next)

@@ -2,6 +2,11 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
 const cors = require('cors')
+const port = process.env.PORT || 3000
+
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').load()
+}
 
 const app = express()
 app.use(cors())
@@ -24,7 +29,6 @@ app.use(function(err, req, res, next){
 })
 
 
-const port = process.env.PORT || 3000
 app.listen(port, function(){
   console.log(`Listening on port ${port}`)
 })
