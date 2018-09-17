@@ -1,5 +1,10 @@
-# earth-track-backend
+# Earth Track Backend
 The backend for Earth-Track.  A single page application that allows the user to search any aerial view on Earth using coordinates.
+
+## Deployed Version
+https://still-spire-69766.herokuapp.com/
+
+Please make sure to let the application 'wake up' once first started
 
 ## Requirements
 
