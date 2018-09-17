@@ -60,8 +60,8 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 Create a .env file and add:
 
-- API_KEY : 
-    $ you can get the token at https://api.nasa.gov/index.html
+- API_KEY = 
+you can get the token at https://api.nasa.gov/index.html
 
 ## Start & watch
 
@@ -71,8 +71,14 @@ Create a .env file and add:
 
 * Javascript
 * NASA Earth API
-* NODE
+* Axios
+* Node
+* Heroku
 
 ## Authors
 
 * **Claudia Ligidakis** 
+
+## Acknowledgments
+
+* Thank you to NASA for their Earth API
